@@ -20,7 +20,7 @@
 
 ## ⚙️ System Architecture
 
-![Architecture]([https://your-image-host.com/multichat-architecture.png](https://drive.google.com/file/d/10syv-T4GTTYEqEqrbIwWhksA6N48tIsq/view?usp=sharing))
+![Architecture](https://drive.google.com/file/d/10syv-T4GTTYEqEqrbIwWhksA6N48tIsq/view?usp=sharing)
 
 > All user inputs are routed through the intelligent backend. The right agent is automatically selected, and responses are returned in real time.
 
