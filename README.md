@@ -50,35 +50,23 @@
 
 🚀 Getting Started
 1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/multichat-ai.git
-cd multichat-ai
+  git clone https://github.com/yourusername/multichat-ai.git\
+  cd multichat-ai
 2. Set Up a Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+  python -m venv venv
+  source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
+
+  pip install -r requirements.txt
 4. Create a .env File
-env
-Copy
-Edit
-GEMINI_API_KEY=your_gemini_api_key
-OPENAI_API_KEY=your_optional_openai_key
-VECTOR_DB=./db
+  env
+  GEMINI_API_KEY=your_gemini_api_key
+  OPENAI_API_KEY=your_optional_openai_key
+  VECTOR_DB=./db
 5. Start the Backend Server
-bash
-Copy
-Edit
-uvicorn app.main:app --reload
-Visit http://localhost:8000/docs to access the interactive Swagger API.
+  uvicorn app.main:app --reload
+  Visit http://localhost:8000/docs to access the interactive Swagger API.
 
 ✅ Future Enhancements
 🎥 Add Text-to-Video Agent using Gemini Pro Vision or external APIs
