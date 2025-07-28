@@ -19,8 +19,8 @@
 
 
 ## ⚙️ System Architecture
-
-![Architecture](https://drive.google.com/file/d/10syv-T4GTTYEqEqrbIwWhksA6N48tIsq/view?usp=sharing)
+![MultiChat UI](https://drive.google.com/uc?id=1zGsxVWIBMiq4_AF4iDO0DV-aQWXg8TtF)
+![Architecture](https://drive.google.com/file/d/10syv-T4GTTYEqEqrbIwWhksA6N48tIsq)
 
 
 > All user inputs are routed through the intelligent backend. The right agent is automatically selected, and responses are returned in real time.
