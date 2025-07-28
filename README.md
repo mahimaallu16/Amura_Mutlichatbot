@@ -17,15 +17,6 @@
 - 📁 **Drag & Drop Upload** – Instantly process files from your local system.
 - 🛠️ **Fully Modular Backend** – Built on FastAPI with clear API documentation.
 
----
-
-## 🖼️ Screenshots
-
-| Home Dashboard | PDF Chat Interface | Excel Query |
-|----------------|--------------------|-------------|
-| ![Home](https://your-image-host.com/multichat-home.png) | ![PDF](https://your-image-host.com/multichat-pdf.png) | ![Excel](https://your-image-host.com/multichat-excel.png) |
-
----
 
 ## ⚙️ System Architecture
 
@@ -50,7 +41,7 @@
 
 🚀 Getting Started
 1. Clone the Repository
-  git clone https://github.com/yourusername/multichat-ai.git\
+  https://github.com/mahimaallu16/Amura_Mutlichatbot\
   cd multichat-ai
 2. Set Up a Virtual Environment
 
