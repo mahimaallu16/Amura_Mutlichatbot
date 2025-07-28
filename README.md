@@ -19,7 +19,6 @@
 
 
 ## ⚙️ System Architecture
-![MultiChat UI](https://drive.google.com/uc?id=1zGsxVWIBMiq4_AF4iDO0DV-aQWXg8TtF)
 ![Architecture](https://drive.google.com/file/d/10syv-T4GTTYEqEqrbIwWhksA6N48tIsq)
 
 
