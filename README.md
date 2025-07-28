@@ -55,3 +55,29 @@
 ```bash
 git clone https://github.com/yourusername/multichat-ai.git
 cd multichat-ai
+### 2.Set up a Virtual Environment
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # For Windows: venv\Scripts\activate
+### 3. Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+### 4. Create a .env File
+env
+Copy
+Edit
+GEMINI_API_KEY=your_gemini_api_key
+OPENAI_API_KEY=your_optional_openai_key
+VECTOR_DB=./db
+### 5. Start the Backend Server
+bash
+Copy
+Edit
+uvicorn app.main:app --reload
+Go to http://localhost:8000/docs to access the Swagger API UI.
+
+
