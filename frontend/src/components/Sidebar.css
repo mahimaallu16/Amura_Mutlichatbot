@@ -1,0 +1,132 @@
+.sidebar {
+  width: 280px;
+  background: #fff;
+  border-right: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 16px 0;
+}
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px 16px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.sidebar-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sidebar-add {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.sidebar-search {
+  margin: 0 24px 16px 24px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  width: calc(100% - 48px);
+}
+.sidebar-segments-title,
+.sidebar-recent-title {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 16px 24px 4px 24px;
+  font-weight: 500;
+}
+.sidebar-segments {
+  margin-bottom: 12px;
+}
+.sidebar-segment {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 24px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.sidebar-segment.selected,
+.sidebar-segment:hover {
+  background: #f3f3f3;
+}
+.sidebar-segment-icon {
+  font-size: 1.2rem;
+}
+.sidebar-recent-chats {
+  flex: 1;
+  margin: 0 24px;
+  overflow-y: auto;
+}
+.sidebar-new-chat {
+  margin: 16px 24px 0 24px;
+  padding: 10px 0;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.sidebar-new-chat:hover {
+  background: #222;
+} 
+
+.MuiDrawer-paper {
+  background: #fff !important;
+  border-right: 1.5px solid #e3e6ec !important;
+  box-shadow: 2px 0 16px 0 rgba(0,0,0,0.04) !important;
+  border-radius: 0 18px 18px 0 !important;
+  font-family: 'Inter', sans-serif !important;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.MuiListItem-root {
+  border-radius: 12px !important;
+  margin-bottom: 6px !important;
+  transition: background 0.18s, color 0.18s;
+}
+.MuiListItem-root.Mui-selected,
+.MuiListItem-root:hover {
+  background: #f3f6fa !important;
+  color: #1976d2 !important;
+}
+
+.MuiListItemIcon-root {
+  min-width: 36px !important;
+  color: #888 !important;
+}
+
+.MuiTypography-h6 {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1.18rem !important;
+}
+
+.MuiButton-root {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08) !important;
+  transition: background 0.18s, box-shadow 0.18s;
+}
+.MuiButton-root:hover {
+  background: #e3e6ec !important;
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.12) !important;
+}
+
+.MuiAvatar-root {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+} 
