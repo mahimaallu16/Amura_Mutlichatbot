@@ -1,6 +1,6 @@
 # 🚀AMURA- MultiChat AI Intelligent Multi-Agent Assistant
 
-![MultiChat UI](https://drive.google.com/file/d/1zGsxVWIBMiq4_AF4iDO0DV-aQWXg8TtF/view?usp=sharing))
+![MultiChat UI](https://drive.google.com/uc?id=1zGsxVWIBMiq4_AF4iDO0DV-aQWXg8TtF)
 
 **MultiChat AI** is a cutting-edge, multi-agent assistant system built to process and respond to a variety of user inputs such as PDFs, Excel files, textual queries, and notebook-style notes. Designed for real-world productivity and seamless interaction, it uses specialized agents to deliver accurate, context-aware, and dynamic answers—backed by the power of **Gemini Pro**, **LangChain**, and **Python**.
 
